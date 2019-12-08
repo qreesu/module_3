@@ -15,9 +15,39 @@
 
 .carousel-caption {
     margin: auto;
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    h3 {
+        font-family: 'Noto Serif', serif;
+        font-size: 72px;
+    }
+    
+    h4 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
 }
 
 /* Others */
+
+.blog {
+    .card-body {
+        color: #fff;
+        
+        h4 {
+            font-family: 'Noto Serif', serif;
+            font-size: 52px;
+            letter-spacing: 3px;
+        }
+    }
+}
 
 .card img {
     width: 100%;
@@ -25,7 +55,7 @@
     object-fit: cover;
 }
 
-.bg-color1 {
+.info {
     background-color: #eff2f5;
 }
 
